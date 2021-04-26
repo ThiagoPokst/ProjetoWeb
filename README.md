@@ -14,4 +14,4 @@ Senha: cityslicka
 
 Para conferir se o usuario esta logado, foi utilizado localStorage com a variavel 'acesso'
 
-A api utilizada foi : 'Pokéapi'
+A api utilizada foi : 'FinalSpaceApi'
