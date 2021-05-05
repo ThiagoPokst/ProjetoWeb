@@ -18,4 +18,4 @@ A api utilizada foi : 'FinalSpaceApi'
 
 Projeto 3 - Node.js e React
 
-O lider e chefe deste projeto é o Esposi. Obrigado
+
