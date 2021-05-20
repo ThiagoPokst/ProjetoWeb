@@ -144,3 +144,9 @@ button {
     max-width: 150px;
 }
 
+.conteudo{
+    background-color: #8257e6; 
+    width:300px; 
+    height:140px; 
+    z-index:1;
+}
