@@ -19,7 +19,31 @@
                         <div class="manifesto">
                             <a href="https://rocketseat.com.br/manifesto" >Manifesto</a>
                         </div>
+                </div>
+                
+                <div class="hideCadastroLogin" style= "display: none;" >
+                    <button class="button" id='cadastroButton'>
+                        Cadastro
+                    </button> 
                 </div>  
+
+                <div class="cadastrarButton" >
+                    <button class="button" id='cadastrarButton'>
+                        Cadastrar
+                    </button> 
+                </div>
+
+                <div class="camposCadastro" style= "margin-left:40px; margin-top:140px; display: none;">      
+                    <label for="fname">Username:</label>
+                    <input type="text" id="fname" name="fname" style="color:black"><br><br>
+                    <label for="lname">Senha:</label>
+                    <input type="text" id="lname" name="lname" style="color:black"><br><br> 
+                    <label for="lname">Biografia:</label>
+                    <input type="text" id="lname" name="lname" style="color:black"><br><br> 
+                    <label for="lname">Ocupado:</label>
+                    <input type="text" id="lname" name="lname" style="color:black"><br><br> 
+               </div>
+                
                 <div class="campos">      
                     <label for="fname">Usuario:</label>
                     <input type="text" id="fname" name="fname" style="color:black"><br><br>
@@ -32,12 +56,12 @@
                         Logar
                     </button> 
                 </div>
-                <div class="button1">
-                    <button class="button" id='showUserButton'">
+                <div class="button1"style="margin-right:300px">
+                    <button class="button" id='showUserButton' >
                         Entrar
                     </button> 
                 </div>
-                <div class="button2">
+                <div class="button2" style= "display: none;">
                     <button class="button" id='logoffButton'>
                         Sair
                     </button> 
@@ -46,31 +70,8 @@
 
         </header>
 
-        <div class="div1" id="searchDiv" style="text-align: center">
 
-            <h1 class="h1"> Selecione um numero de Personagem<b>.</b> </h1>
-            <input type="number" min="1" max="40" id="pokInput" name="pokInput" style="color:black"><br><br>  
-
-            <label for="lname" id="wrongSearchData"style="color :rgb(202, 7, 7); display:none">Esta busca não existe</label> 
-
-            <div class="button2">
-                <button class="button" id='searchButton' style="width: 25%;">
-                    Buscar
-                </button> 
-            </div>         
-
-            <div class="infoPokDiv" style="margin-top: 70px; display: none;">            
-                <div class="infoPok">
-                    <img src="" id="pokeImg" alt="some text" width=120 height=120>
-                    <label for="pokInputName" id="pokInputName" width=120 height=120>pokemon name</label>  
-                </div> 
-                
-                <label for="pokInputId" id="pokInputId" width=120 height=120>pokemon id</label>  
-                <label for="pokInputWeight" id="pokInputWeight" width=120 height=120 style="margin-left: 15px;">pokemon weight</label>  
-            </div>
-        </div>
-
-        <div class="div1">
+        <div class="div1" style= "margin-top:180px; ">
             <h1 class="h1"> Evolua rápido como a tecnologia<b>.</b> </h1>
         </div>
 
@@ -83,11 +84,7 @@
             </div>
         </div>
 
-        <div class="div3">
-                <a>
-                    <img src="https://i.imgur.com/vkauJuZ.png">
-                </a>  
-        </div>
+
 
         <script src="./script.js"></script>
     </body>

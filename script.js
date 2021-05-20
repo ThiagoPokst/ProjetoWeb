@@ -1,4 +1,7 @@
 var butEntrar = document.querySelector("#showUserButton"),
+            butCadastrar = document.querySelector("#cadastrarButton"),
+            butCadastro = document.querySelector(".hideCadastroLogin"),
+            camposCadastro = document.querySelector(".camposCadastro"),
             hideUserLogin = document.querySelector(".campos"),
             firstButton = document.querySelector(".button1")
             hideButtonLogin = document.querySelector(".hideButtonLabel"),
@@ -19,11 +22,23 @@ var butEntrar = document.querySelector("#showUserButton"),
             wrongSearchData = document.querySelector("#wrongSearchData"),
             searchButton = document.querySelector("#searchButton");
 
+
+        butCadastrar.addEventListener("click", function(){
+            butCadastrar.style.display= 'none';
+            butCadastro.style.display = 'block';
+            camposCadastro.style.display = 'block';
+            hideUserLogin.className= 'campos none'
+            firstButton.style.display= 'none';
+
+            }); 
+
         butEntrar.addEventListener("click", function(){
             hideUserLogin.className= 'campos show'
             hideButtonLogin.className= 'hideLogin show'
             firstButton.style.display = 'none';
             butLogin.style.display= 'block';
+            butCadastro.style.display = 'none';
+            butCadastrar.style.display= 'none';
         });   
         
         butLogoff.addEventListener("click", function(){
@@ -32,18 +47,6 @@ var butEntrar = document.querySelector("#showUserButton"),
             infoPokDiv.style.display= 'none';
         });
 
-        searchButton.addEventListener("click", function(){
-            if(pokInput.value.length < 1){
-                wrongSearchData.style.display='block';
-                return false;
-            }
-            
-            wrongSearchData.style.display='none';
-
-            infoPokDiv.style.display= 'block';
-            searchApi();
-        });       
-        
         const searchApi =() =>{
 
             axios.get('https://finalspaceapi.com/api/v0/character/'+pokInput.value+'')
@@ -73,7 +76,6 @@ var butEntrar = document.querySelector("#showUserButton"),
         }
         
         const stateToLog = () => {
-            searchDiv.style.display='none';
             butLogin.style.display= 'none';
             firstButton.style.display= 'block';
             butLogoff.style.display= 'none';
