@@ -16,6 +16,8 @@ Para conferir se o usuario esta logado, foi utilizado localStorage com a variave
 
 A api utilizada foi : 'FinalSpaceApi'
 
+------------
+
 Projeto 3 - Node.js e React
 
 Execução:
