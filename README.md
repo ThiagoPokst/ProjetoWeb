@@ -23,7 +23,7 @@ Projeto 3 - Node.js e React
 Execução e Instalação:
 -Para rodar localmente instale a ferramenta 'node', e tenha também disponivel o comando 'yarn' para incialização do projeto.
 
--Para a 'api', navegue até o caminho: './api' e rode: 'yarn install' uma vez para instalação das dependencias e 'yarn dev' para execução da api
+-Para a 'api', navegue até o caminho: './api' e rode: 'npm install' uma vez para instalação das dependencias e 'yarn dev' para execução da api
 
 -Para 'app', navegue até o caminho: './web' e rode: 'yarn start'
 
