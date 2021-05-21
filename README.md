@@ -45,3 +45,5 @@ Sobre:
 postagens e possa visualizar outras postagens realizadas por outros usuários.
 
   As postagens estão presentes em uma 'timeline' em que todas as postagens aparecerão em uma coluna
+
+O projeto pode ser visualizado pela URL do Heroku em: https://git.heroku.com/projetoweb2021.git
