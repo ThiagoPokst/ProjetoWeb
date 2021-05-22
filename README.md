@@ -45,3 +45,5 @@ Sobre:
 postagens e possa visualizar outras postagens realizadas por outros usuários.
 
   As postagens estão presentes em uma 'timeline' em que todas as postagens aparecerão em uma coluna
+  
+  É possível acessar o projeto pelo link: https://front-proj3.herokuapp.com/
